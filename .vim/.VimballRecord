@@ -1,0 +1,1 @@
+mark-2.7.2.vmb: call delete('/home/chiehhanlee/.vim/autoload/mark.vim')|call delete('/home/chiehhanlee/.vim/autoload/mark/palettes.vim')|call delete('/home/chiehhanlee/.vim/plugin/mark.vim')|call delete('/home/chiehhanlee/.vim/doc/mark.txt')
