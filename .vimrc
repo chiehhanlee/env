@@ -4,12 +4,10 @@ set hlsearch
 set nu
 
 
-if &diff
-nnoremap <silent> <F5> <ESC>]czz
-nnoremap <silent> <F6> <ESC>[czz
-else
+map <silent> <C-L> <ESC>]czz
+map <silent> <C-K> <ESC>[czz
+
 nnoremap <silent> <F5> :TlistToggle<CR>
-endif
 
 nnoremap <silent> <F7> :set invnumber<CR>
 nnoremap <silent> <F8> :NERDTreeToggle<CR>
