@@ -3,3 +3,5 @@ set incsearch
 set hlsearch
 set nu
 nnoremap <silent> <F5> :TlistToggle<CR>
+nnoremap <silent> <F6> :set invnumber<CR>
+nnoremap <silent> <F8> :NERDTreeToggle<CR>
