@@ -15,3 +15,13 @@ nnoremap <silent> <F8> :NERDTreeToggle<CR>
 colorscheme blackboard
 
 set diffopt+=iwhite
+
+augroup filetype
+au! BufRead,BufNewFile *Makefile*     set filetype=make
+au! BufRead,BufNewFile *.ll     set filetype=llvm
+au! BufRead,BufNewFile *.td     set filetype=tablegen
+au! BufRead,BufNewFile *.s      set filetype=armasm
+au! BufRead,BufNewFile *.S      set filetype=armasm
+augroup END
+
+
