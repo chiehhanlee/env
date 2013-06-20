@@ -4,7 +4,12 @@ set hlsearch
 set nu
 
 
-map <silent> <C-L> <ESC>]czz
+map <silent> <C-N> <ESC>:tabnew<CR>
+
+map <silent> <C-L> <ESC>:tabnext<CR>
+map <silent> <C-H> <ESC>:tabprevious<CR>
+
+map <silent> <C-J> <ESC>]czz
 map <silent> <C-K> <ESC>[czz
 
 nnoremap <silent> <F5> :TlistToggle<CR>
