@@ -58,6 +58,9 @@ FIFO 40;33  # pipe
 SOCK 01;35  # socket
 BLK 40;33;01    # block device driver
 CHR 40;33;01    # character device driver
+OTHER_WRITABLE 34
+STICKY_OTHER_WRITABLE 34
+
 
 # This is for files with execute permission:
 EXEC 01;32 
