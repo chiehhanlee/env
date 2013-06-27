@@ -2,7 +2,9 @@ set tabstop=4 shiftwidth=4 expandtab
 set incsearch
 set hlsearch
 set nu
+set autoindent
 
+set tags=./tags;../tags;../../tags;../../../../tags;../../../../../tags
 
 map <silent> <C-N> <ESC>:tabnew<CR>
 
